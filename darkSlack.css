@@ -238,6 +238,7 @@ a:hover {
 }
 
 
+
 /*.channels_list_holder ul li.mention a, .channels_list_holder ul li.unread:not(.muted_channel) .channel_name, .channels_list_holder ul li.unread:not(.muted_channel) a.group_name, .channels_list_holder ul li.unread:not(.muted_channel) .im_name, .channels_list_holder ul li.unread:not(.muted_channel) .mpim_name, .channels_list_holder ul li.unread:not(.muted_channel)>a:link{
   color: #fff !important;
 }*/
@@ -269,6 +270,7 @@ ts-message a.timestamp {
 }
 
 
+
 /* files */
 
 .file_container.generic_container .file_header_meta .meta_hover {
@@ -286,6 +288,7 @@ ts-message a.timestamp {
 .file_preview_link.btn.file_comment_link:hover {
   background-color: var(--background) !important;
 }
+
 
 
 /* other */
@@ -324,6 +327,9 @@ ts-message a.timestamp {
 
   body {
     min-width: 0
+  }
+  .sidebar {
+    display: none;
   }
   #messages-input-container,
   #notification_bar {
