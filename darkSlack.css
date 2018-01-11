@@ -1,3 +1,8 @@
+/*
+ * Thanks to reddit user Scellow for dark theme
+ * https://www.reddit.com/r/Slack/comments/5x6uf4/dark_theme_for_the_desktop_app/
+ */
+
 :root {
   --primary: #09F;
   --accent: #57A;
@@ -312,6 +317,18 @@ ts-message a.timestamp {
 #col_channels_overlay {
   border-color: var(--border-bright) !important;
 }
+
+/*
+ * Thanks to Leif Arne Storset for updating sidebar fix with hoasted file
+ * https://userstyles.org/styles/119991/slack-hide-sidebar-when-window-is-narrow
+ *
+ * Based on 0atman's solution
+ * http://www.0atman.com/remove-slacks-sidebar.html
+ *
+ * Thanks to:
+ * Tristram Oaten
+ * shaymdev
+ */
 
 @media (max-width: 800px) {
   /* hide the sidebar */

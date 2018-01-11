@@ -20,8 +20,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 ```
 
-##Sources##
+## Sources ##
 
- - [Hide Sidebar](http://www.0atman.com/remove-slacks-sidebar.html "start of rabbit hole")
+ - ~~[Hide Sidebar](http://www.0atman.com/remove-slacks-sidebar.html "start of rabbit hole")~~
+ - [Updated Hide Sidebar](https://userstyles.org/styles/119991/slack-hide-sidebar-when-window-is-narrow "works with 3.0.0")
  - [Add custom CSS to windows desktop version](https://github.com/laCour/slack-night-mode/issues/73#issuecomment-287467332 "directions for fetching custom URL at load")
  - [Original CSS source](https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css "sourced from previous link directions")
