@@ -1,10 +1,10 @@
-#Slack Customization#
+# Slack Customization
 
 A place to store .css for custom slack styling that can be served up via http
 
 *(This will need to be redone after every slack update.)*
 
-##Directions##
+## Directions
 
 append the following code snippet to C:\Users\<username>\AppData\Local\slack\app-3.0.0\resources\app.asar.unpacked/src/static/ssb-interop.js:
 

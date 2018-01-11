@@ -239,6 +239,7 @@ a:hover {
 
 
 
+
 /*.channels_list_holder ul li.mention a, .channels_list_holder ul li.unread:not(.muted_channel) .channel_name, .channels_list_holder ul li.unread:not(.muted_channel) a.group_name, .channels_list_holder ul li.unread:not(.muted_channel) .im_name, .channels_list_holder ul li.unread:not(.muted_channel) .mpim_name, .channels_list_holder ul li.unread:not(.muted_channel)>a:link{
   color: #fff !important;
 }*/
@@ -271,6 +272,7 @@ ts-message a.timestamp {
 
 
 
+
 /* files */
 
 .file_container.generic_container .file_header_meta .meta_hover {
@@ -288,6 +290,7 @@ ts-message a.timestamp {
 .file_preview_link.btn.file_comment_link:hover {
   background-color: var(--background) !important;
 }
+
 
 
 
@@ -312,9 +315,6 @@ ts-message a.timestamp {
 
 @media (max-width: 800px) {
   /* hide the sidebar */
-  #team_menu {
-    display: none;
-  }
   #col_channels_bg {
     display: none;
   }
@@ -324,7 +324,18 @@ ts-message a.timestamp {
   #messages_container {
     margin-left: 0;
   }
-
+  .client_channels_list_container {
+    display: none;
+  }
+  #channel_header_info {
+    overflow: hidden;
+  }
+  #client_header {
+    min-width: 0;
+  }
+  #client_header .channel_header {
+    margin-left: 0;
+  }
   body {
     min-width: 0
   }
